@@ -693,7 +693,7 @@ img {
 .main-content-wrapper .cart-table-area .cart-title h2 {
     font-size: 30px;
     margin-bottom: 30px;
-    color: peachpuff;
+    color: orangered;
 }
 
 .main-content-wrapper .cart-table-area table thead {
@@ -751,7 +751,7 @@ img {
 
 .main-content-wrapper .cart-table-area table tbody tr td h5 {
     font-size: 16px;
-    color: peachpuff;
+    color: orangered;
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -778,7 +778,7 @@ img {
     height: 40px;
     padding: 0 15px;
     background-color: black;
-    color: peachpuff;
+    color:orangered;
     font-size: 14px
 }
 
@@ -873,7 +873,7 @@ img {
 }
 
 .main-content-wrapper .cart-table-area .cart-summary .summary-table li span {
-    color: peachpuff;
+    color: orangered;
     font-size: 14px
 }
 
