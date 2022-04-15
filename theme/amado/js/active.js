@@ -1,15 +1,15 @@
-(function ($) {
+(function($) {
     'use strict';
 
     var $window = $(window);
 
     // :: 1.0 Masonary Gallery Active Code
 
-    var proCata = $('.amado-pro-catagory');
+    var proCata = $('.techbeat-pro-catagory');
     var singleProCata = ".single-products-catagory";
 
     if ($.fn.imagesLoaded) {
-        proCata.imagesLoaded(function () {
+        proCata.imagesLoaded(function() {
             proCata.isotope({
                 itemSelector: singleProCata,
                 percentPosition: true,
@@ -21,26 +21,26 @@
     }
 
     // :: 2.1 Search Active Code
-    var amadoSearch = $('.search-nav');
+    var techbeatSearch = $('.search-nav');
     var searchClose = $('.search-close');
 
-    amadoSearch.on('click', function () {
+    techbeatSearch.on('click', function() {
         $('body').toggleClass('search-wrapper-on');
     });
 
-    searchClose.on('click', function () {
+    searchClose.on('click', function() {
         $('body').removeClass('search-wrapper-on');
     });
 
     // :: 2.2 Mobile Nav Active Code
-    var amadoMobNav = $('.amado-navbar-toggler');
+    var techbeatMobNav = $('.techbeat-navbar-toggler');
     var navClose = $('.nav-close');
 
-    amadoMobNav.on('click', function () {
+    techbeatMobNav.on('click', function() {
         $('.header-area').toggleClass('bp-xs-on');
     });
 
-    navClose.on('click', function () {
+    navClose.on('click', function() {
         $('.header-area').removeClass('bp-xs-on');
     });
 
@@ -54,7 +54,7 @@
     }
 
     // :: 4.0 Sticky Active Code
-    $window.on('scroll', function () {
+    $window.on('scroll', function() {
         if ($window.scrollTop() > 0) {
             $('.header_area').addClass('sticky');
         } else {
@@ -90,12 +90,12 @@
     }
 
     // :: 10.0 PreventDefault a Click
-    $("a[href='#']").on('click', function ($) {
+    $("a[href='#']").on('click', function($) {
         $.preventDefault();
     });
 
     // :: 11.0 Slider Range Price Active Code
-    $('.slider-range-price').each(function () {
+    $('.slider-range-price').each(function() {
         var min = jQuery(this).data('min');
         var max = jQuery(this).data('max');
         var unit = jQuery(this).data('unit');
@@ -108,7 +108,7 @@
             min: min,
             max: max,
             values: [value_min, value_max],
-            slide: function (event, ui) {
+            slide: function(event, ui) {
                 var result = label_result + " " + unit + ui.values[0] + ' - ' + unit + ui.values[1];
                 console.log(t);
                 t.closest('.slider-range').find('.range-price').html(result);
