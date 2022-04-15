@@ -36,13 +36,13 @@ h3,
 h4,
 h5,
 h6 {
-    color: orangered;
+    color: peachpuff;
     line-height: 1.3;
     font-weight: 400
 }
 
 p {
-    color: orangered;
+    color: peachpuff;
     font-size: 16px;
     line-height: 1.9;
     font-weight: 400
@@ -53,7 +53,7 @@ a {
     transition: all 500ms ease 0s;
     text-decoration: none;
     outline: 0 solid transparent;
-    color: orangered;
+    color: peachpuff;
     font-weight: 400;
     font-size: 12px
 }
@@ -166,7 +166,7 @@ img {
 .mobile-nav {
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 90px;
     background-color: black;
     z-index: 3000;
     top: 0;
@@ -194,14 +194,14 @@ img {
 
 .mobile-nav .techbeat-navbar-brand {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 70px;
-    flex: 0 0 70px;
-    max-width: 70px
+    -ms-flex: 0 0 180px;
+    flex: 0 0 180px;
+    max-width: 180px
 }
 
 .mobile-nav .techbeat-navbar-brand a {
     display: block;
-    max-width: 70px
+    max-width: 100px
 }
 
 .mobile-nav .techbeat-navbar-toggler {
@@ -226,7 +226,7 @@ img {
     border-radius: 0;
     bottom: 60px;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .3);
-    color:peachpuff;
+    color:orangered;
     font-size: 24px;
     height: 40px;
     line-height: 40px;
@@ -405,7 +405,7 @@ img {
     position: absolute;
     top: 0;
     right: 15px;
-    background-color: red;
+    background-color:black;
     text-align: center;
     color:peachpuff;
     line-height: 40px;
@@ -417,7 +417,7 @@ img {
 
 @media only screen and (max-width:767px) {
     .main-content-wrapper .header-area .nav-close {
-        display: block
+        display: block;
     }
 }
 
@@ -426,8 +426,14 @@ img {
 }
 
 .main-content-wrapper .header-area .logo {
-    margin-bottom: 100px;
-    display: block
+    margin-bottom: 50px;
+    display: block;
+   
+}
+
+.main-content-wrapper .header-area .logo a img {
+    object-fit: cover;
+   
 }
 
 .main-content-wrapper .header-area .techbeat-nav li a {
@@ -458,7 +464,7 @@ img {
 
 .main-content-wrapper .header-area .techbeat-nav li a:hover,
 .main-content-wrapper .header-area .techbeat-nav li a:focus {
-    color: peachpuff;
+    color: orangered;
 }
 
 .main-content-wrapper .header-area .techbeat-nav li:hover a::after,
@@ -503,7 +509,7 @@ img {
 }
 
 .main-content-wrapper .header-area .cart-fav-search a span {
-    color: peachpuff;
+    color: orangered;
 }
 
 .main-content-wrapper .header-area .cart-fav-search a img {
@@ -512,11 +518,11 @@ img {
 
 .main-content-wrapper .header-area .cart-fav-search a:hover,
 .main-content-wrapper .header-area .cart-fav-search a:focus {
-    color: peachpuff;
+    color: orangered;
 }
 
 .main-content-wrapper .header-area .social-info a {
-    color: orangered;
+    color: peachpuff;
     display: inline-block
 }
 
@@ -687,7 +693,7 @@ img {
 .main-content-wrapper .cart-table-area .cart-title h2 {
     font-size: 30px;
     margin-bottom: 30px;
-    color: orangered;
+    color: peachpuff;
 }
 
 .main-content-wrapper .cart-table-area table thead {
@@ -713,7 +719,7 @@ img {
     width: 25%;
     max-width: 25%;
     font-size: 12px;
-    color: orangered;
+    color: peachpuff;
     text-transform: capitalize;
     font-weight: 400
 }
@@ -772,7 +778,7 @@ img {
     height: 40px;
     padding: 0 15px;
     background-color: black;
-    color: orangered;
+    color: peachpuff;
     font-size: 14px
 }
 
@@ -796,7 +802,7 @@ img {
     -moz-appearance: textfield;
     -webkit-appearance: textfield;
     appearance: textfield;
-    color: orangered;
+    color: peachpuff;
     font-size: 14px
 }
 
@@ -815,7 +821,7 @@ img {
     text-align: center;
     height: 40px;
     cursor: pointer;
-    color: orangered;
+    color: peachpuff;
     font-size: 10px
 }
 
@@ -828,7 +834,7 @@ img {
     height: 40px;
     text-align: center;
     cursor: pointer;
-    color: orangered;
+    color: peachpuff;
     font-size: 10px
 }
 
@@ -867,13 +873,13 @@ img {
 }
 
 .main-content-wrapper .cart-table-area .cart-summary .summary-table li span {
-    color: orangered;
+    color: peachpuff;
     font-size: 14px
 }
 
 .main-content-wrapper .cart-table-area .cart-summary .payment-method label {
     font-size: 14px;
-    color: orangered;
+    color: peachpuff;
     font-weight: 400;
     margin-bottom: 15px
 }
@@ -929,13 +935,13 @@ img {
 }
 
 .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item a {
-    color: orangered;
+    color: peachpuff;
     font-size: 14px;
     text-transform: uppercase
 }
 
 .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item a:hover {
-    color: orangered;
+    color: peachpuff;
 }
 
 .main-content-wrapper .single-product-area .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
@@ -1026,7 +1032,7 @@ img {
 .main-content-wrapper .single-product-area .single_product_desc .product-meta-data .product-price {
     font-size: 24px;
     font-weight: 400;
-    color: orangered;
+    color: peachpuff;
     line-height: 1;
     margin-bottom: 10px
 }
@@ -1096,7 +1102,7 @@ img {
     -moz-appearance: textfield;
     -webkit-appearance: textfield;
     appearance: textfield;
-    color: orangered;
+    color: peachpuff;
 }
 
 .main-content-wrapper .single-product-area .single_product_desc .cart .quantity .qty-plus {
@@ -1108,7 +1114,7 @@ img {
     text-align: center;
     height: 20px;
     cursor: pointer;
-    color: orangered;
+    color: peachpuff;
 }
 
 .main-content-wrapper .single-product-area .single_product_desc .cart .quantity .qty-minus {
@@ -1120,7 +1126,7 @@ img {
     height: 25px;
     text-align: center;
     cursor: pointer;
-    color: orangered;
+    color: peachpuff;
 }
 
 .main-content-wrapper .single-product-area .single_product_desc .cart .techbeat-btn {
@@ -1208,8 +1214,8 @@ img {
 }
 
 .single-products-catagory .hover-content {
-    position: absolute;
-    top: 40px;
+    position:absolute;
+    top: 4px;
     left: 40px;
     z-index: 10
 }
@@ -1231,8 +1237,9 @@ img {
 
 .single-products-catagory .hover-content p {
     font-size: 16px;
-    color: orangered;
-    line-height: 1;
+    color: peachpuff;
+    line-height: 2;
+    margin-top: 20px;
     margin-bottom: 5px;
     -webkit-transition-duration: 250ms;
     transition-duration: 250ms
@@ -1300,14 +1307,14 @@ img {
 .single-product-wrapper .product-description .product-meta-data .line {
     width: 80px;
     height: 3px;
-    background-color: orangered;
+    background-color: peachpuff;
     margin-bottom: 15px;
     display: block
 }
 
 .single-product-wrapper .product-description .product-meta-data .product-price {
     line-height: 1;
-    color: orangered;
+    color: peachpuff;
     font-size: 24px;
     margin-bottom: 10px
 }
@@ -1322,7 +1329,7 @@ img {
 
 .single-product-wrapper .product-description .ratings-cart .ratings i {
     font-size: 10px;
-    color: orangered;
+    color: peachpuff;
 }
 
 .single-product-wrapper .product-description .ratings-cart .cart {
@@ -1348,7 +1355,7 @@ img {
     line-height: 40px;
     padding: 0;
     text-align: center;
-    color: orangered;
+    color: peachpuff;
 }
 
 .pagination .page-item .page-link:hover,
@@ -1359,7 +1366,7 @@ img {
 }
 
 .pagination .page-item.active .page-link {
-    color: orangered;
+    color: peachpuff;
     box-shadow: none;
     background-color: black;
 }
@@ -1385,13 +1392,13 @@ img {
 
 .footer_area .single_widget_area .copywrite {
     font-size: 12px;
-    color: orangered;
+    color: peachpuff;
     margin-top: 10px
 }
 
 .footer_area .single_widget_area .copywrite a {
     font-size: 12px;
-    color: orangered;
+    color: peachpuff;
 }
 
 .footer_area .single_widget_area .copywrite a:hover {
@@ -1410,7 +1417,7 @@ img {
 
 .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link {
     padding: 10px 30px;
-    color: peachpuff;
+    color: orangered;
     text-transform: uppercase;
     font-size: 14px
 }
@@ -1433,7 +1440,7 @@ img {
 }
 
 .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item.active .nav-link {
-    color: orangered;
+    color: peachpuff;
 }
 
 .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item:last-child .nav-link {
@@ -1448,7 +1455,7 @@ img {
 .widget .widget-title {
     font-size: 16px;
     text-transform: capitalize;
-    color: orangered;
+    color: peachpuff;
 }
 
 .widget .catagories-menu li a {
@@ -1457,7 +1464,7 @@ img {
     padding: 15px 0 15px 20px;
     display: block;
     font-weight: 400;
-    color: orangered;
+    color: peachpuff;
 }
 
 .widget .catagories-menu li a:hover,
@@ -1481,7 +1488,7 @@ img {
     width: 18px;
     height: 18px;
     margin: 0;
-    border: 2px solid orangered;
+    border: 2px solid peachpuff;
     border-radius: 50%
 }
 
@@ -1499,7 +1506,7 @@ img {
     font-weight: 400;
     margin-top: 20px;
     text-transform: uppercase;
-    color: orangered;
+    color: peachpuff;
 }
 
 .widget.color .widget-desc ul {
@@ -1566,7 +1573,7 @@ img {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     font-size: 16px;
-    color: orangered;
+    color: peachpuff;
     font-weight: 400;
     cursor: pointer
 }
@@ -1606,7 +1613,7 @@ img {
 .product-topbar .total-products p {
     margin-bottom: 15px;
     font-size: 14px;
-    color: orangered;
+    color: peachpuff;
     text-transform: uppercase
 }
 
@@ -1617,7 +1624,7 @@ img {
     width: 40px;
     height: 40px;
     background-color: black;
-    color:orangered;
+    color:peachpuff;
     font-size: 16px;
     text-align: center;
     line-height: 44px
@@ -1633,7 +1640,7 @@ img {
     height: 40px;
     background-color: black;
     line-height: 40px;
-    color: orangered;
+    color: peachpuff;
     padding-left: 15px
 }
 
@@ -1711,7 +1718,7 @@ img {
 }
 
 .product-topbar .nice-select .list .option.selected {
-    color: orangered;
+    color: peachpuff;
 }
 
 .checkout_details_area form .form-control {
@@ -1720,7 +1727,7 @@ img {
     border-radius: 0;
     background-color: black;
     padding: 30px;
-    color: orangered;
+    color: peachpuff;
     font-size: 14px
 }
 
@@ -1730,7 +1737,7 @@ img {
 
 .checkout_details_area form .custom-control label {
     font-size: 14px;
-    color: orangered;
+    color: peachpuff;
 }
 
 .checkout_details_area form .nice-select {
@@ -1739,7 +1746,7 @@ img {
     line-height: 60px;
     background-color: black;
     border: none;
-    color: orangered;
+    color: peachpuff;
     font-size: 14px
 }
 
